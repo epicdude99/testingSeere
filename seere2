@@ -759,7 +759,6 @@ function library:addTab(name)
 			end)
 			button.MouseLeave:connect(function()
                 entered = false
-                main.BorderColor3 = Color3.fromRGB(60, 60, 60)
 			end)
             if args.value then
                 updateValue(args.value)
